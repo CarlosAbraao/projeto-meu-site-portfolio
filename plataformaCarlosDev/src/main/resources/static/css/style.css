@@ -1,0 +1,39 @@
+
+.copAlin{
+	
+	margin: 0 auto;
+	
+}
+.corpoposicao1{
+	
+	width: 48%; float:left;
+	height:20em;
+	padding:2em 1em;
+	border: solid 1px #0449B0;
+	margin-top: 1em;
+	
+}
+.corpoposicao2{
+	
+	width: 48%; float:right;
+	height:20em;
+	padding:2em 1em;
+	border: solid 1px #0449B0;
+	margin-top: 1em;
+	
+}
+
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 667px){
+	
+	.corpoposicao1{
+					width: 100%;
+					
+				}
+				.corpoposicao2{
+					width: 100%;
+					
+				}
+}
